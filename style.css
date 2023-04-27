@@ -265,6 +265,13 @@ nav {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 600px) {
+  .testimonial {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
 .gallery {
   background-color: #F17F42;
   padding: 50px;
